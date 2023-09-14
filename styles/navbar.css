@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.logo img {
+  width: 64px;
+  height: 64px;
+}
+.navbar__container {
+  display: flex;
+  gap: 15px;
+  color: white;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+.navbar__container a {
+  color: white;
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,500&display=swap");
+
+body {
+  background-image: image-set("../images/background.jpeg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  font-family: "Roboto";
+}
+.main {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+.nazwa {
+  margin-top: 250px;
+}
+.fabryka {
+  font-size: 30px;
+  color: white;
+  font-weight: 300;
+}
+.dolacz {
+  border: 2px solid rgb(184, 40, 40);
+  display: flex;
+  width: 250px;
+  font-size: 25px;
+  color: white;
+  border-radius: 25px;
+  justify-content: center;
+  font-weight: bold;
+  padding: 20px;
+}
+.dolacz a {
+  color: white;
+}
+.dolacz:hover {
+  color: black;
+  cursor: pointer;
+  background-color: white;
+}
+.dolacz:hover a {
+  color: black;
+}
+
+.holder {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
