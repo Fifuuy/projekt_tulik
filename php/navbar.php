@@ -1,7 +1,7 @@
 <?php
   echo '<div class="navbar">
   <div class="logo">
-      <img src="../images/logo.webp" alt="dumbell"/>
+      <a href="index.php"><img src="../images/logo.webp" alt="dumbell"/></a>
     </div>
     <div class="navbar__container">
       <a href="about.php">O NAS</a>

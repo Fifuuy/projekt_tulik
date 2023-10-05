@@ -19,7 +19,7 @@
     </div>
     <div class="holder">
       <div class="dolacz">
-        <a href="registerForm.php">DOŁĄCZ TERAZ</a>
+        <a href="registerForm.php">ZAREJESTRUJ SIĘ</a>
       </div>
     </div>
   </body>
