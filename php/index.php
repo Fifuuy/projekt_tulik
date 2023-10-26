@@ -21,6 +21,9 @@
       <div class="dolacz">
         <a href="registerForm.php">ZAREJESTRUJ SIĘ</a>
       </div>
+        <div class="login">
+        <a href="login.php">ZALOGUJ SIĘ</a>
+      </div>
     </div>
   </body>
 </html>

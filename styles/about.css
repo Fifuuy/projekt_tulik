@@ -5,14 +5,23 @@ body{
     color: white;
     font-family: "Roboto";
 }
-.historia{
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+.element{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:64px;
+    margin-bottom:64px;
+}
+.element img{
+    width:100%;
+    border-radius: 25px;
+}
+.element p {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    background-image: image-set("../images/historia1.jpg");
-    height: 1200px;
-    width: 1200px;
-    scale: 50%;
-
+    font-size:24px;
+    line-height:1.5;
 }
