@@ -24,12 +24,39 @@ body {
     padding:20px;
     gap:20px;
 }
+.gallery_container div {
+    height:400px;
+}
 .gallery_container img {
     width: 100%;
     transition: all 0.4s;
     cursor: pointer;
     border-radius:7px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .gallery_container img:hover{
     transform: scale(1.1);
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    width:100%;
+    height:100vh;
+    background-color: #111111a6;
+    backdrop-filter: blur(5px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay div {
+    max-width:720px;
+}
+.overlay img {
+    object-position: center;
+    width: 100%;
+}
+.hidden{
+    display: none;
 }
