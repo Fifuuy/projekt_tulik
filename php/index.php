@@ -18,12 +18,25 @@
       <span class="fabryka"> <p>ŚWIĄTYNIA FORMY I SIŁY</p> </span>
     </div>
     <div class="holder">
-      <div class="dolacz">
-        <a href="registerForm.php">ZAREJESTRUJ SIĘ</a>
-      </div>
-        <div class="login">
-        <a href="login.php">ZALOGUJ SIĘ</a>
-      </div>
+      <?php
+      session_start();
+      if(isset($_SESSION['user_id']))
+      {
+          echo '<div class="main__btn">
+          <a href="profil.php">PROFIL</a>
+        </div>"';
+      }
+      else{
+        echo '
+        <div class="main__btn">
+          <a href="registerForm.php">ZAREJESTRUJ SIĘ</a>
+        </div>
+        <div class="main__btn">
+          <a href="login.php">ZALOGUJ SIĘ</a>
+        </div>';
+      }
+      ?>
+
     </div>
   </body>
 </html>

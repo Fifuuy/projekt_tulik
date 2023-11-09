@@ -21,7 +21,7 @@ body {
   color: white;
   font-weight: 300;
 }
-.dolacz {
+.main__btn {
   border: 2px solid rgb(184, 40, 40);
   display: flex;
   width: 250px;
@@ -32,15 +32,15 @@ body {
   font-weight: bold;
   padding: 20px;
 }
-.dolacz a {
+.main__btn a {
   color: white;
 }
-.dolacz:hover {
+.main__btn:hover {
   color: black;
   cursor: pointer;
   background-color: white;
 }
-.dolacz:hover a {
+.main__btn:hover a {
   color: black;
 }
 
@@ -53,25 +53,4 @@ body {
 a {
   text-decoration: none;
 }
-.login {
-  border: 2px solid rgb(184, 40, 40);
-  display: flex;
-  width: 250px;
-  font-size: 25px;
-  color: white;
-  border-radius: 25px;
-  justify-content: center;
-  font-weight: bold;
-  padding: 20px;
-}
-.login a {
-  color: white;
-}
-.login:hover {
-  color: black;
-  cursor: pointer;
-  background-color: white;
-}
-.login:hover a {
-  color: black;
-}
+
