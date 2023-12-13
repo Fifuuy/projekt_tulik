@@ -24,7 +24,7 @@
       {
           echo '<div class="main__btn">
           <a href="profil.php">PROFIL</a>
-        </div>"';
+        </div>';
       }
       else{
         echo '
